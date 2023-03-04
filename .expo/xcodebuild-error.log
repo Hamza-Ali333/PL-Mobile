@@ -1,0 +1,32 @@
+2023-01-27 15:26:53.758 xcodebuild[3797:509522]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x7fc9b35120a0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+2023-01-27 15:26:53.758 xcodebuild[3797:509522]  DVTPortal: Error:
+Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+    creationTimestamp = "2023-01-27T10:26:53Z";
+    httpCode = 200;
+    protocolVersion = QH65B2;
+    requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+    responseId = "32dd5ba8-67a0-47a3-adca-eddf284136f1";
+    resultCode = 1100;
+    resultString = "Your session has expired. Please log in.";
+    userLocale = "en_US";
+    userString = "Your session has expired. Please log in.";
+}, NSLocalizedDescription=Your session has expired. Please log in.}
+2023-01-27 15:26:54.891 xcodebuild[3797:509522]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x7fc9b2520300; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+2023-01-27 15:26:54.891 xcodebuild[3797:509522]  DVTPortal: Error:
+Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+    creationTimestamp = "2023-01-27T10:26:54Z";
+    httpCode = 200;
+    protocolVersion = QH65B2;
+    requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+    responseId = "d0a1e160-1661-4015-b7fa-9d9f5f46be1b";
+    resultCode = 1100;
+    resultString = "Your session has expired. Please log in.";
+    userLocale = "en_US";
+    userString = "Your session has expired. Please log in.";
+}, NSLocalizedDescription=Your session has expired. Please log in.}
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution [CP-User]\ Generate\ Specs /Users/bjs-1/Library/Developer/Xcode/DerivedData/ProcurementLeagueClasses-fwzscuryjvtbqtewrmkbcibqcetw/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBReactNativeSpec.build/Script-46EB2E00013E80.sh (in target 'FBReactNativeSpec' from project 'Pods')
+(1 failure)

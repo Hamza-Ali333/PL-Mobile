@@ -1,0 +1,10 @@
+{
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "urlRandomness": "n4-x94",
+  "https": false,
+  "devClient": true,
+  "scheme": "procurementleague"
+}

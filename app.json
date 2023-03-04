@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Procurement League",
+    "slug": "PL",
+    "scheme": "procurementleague",
+    "platforms": ["ios", "android"],
+    "version": "2.1.6",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "androidStatusBar": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "bundleIdentifier": "com.procurementleague.procurementleague",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires access to the camera to upload your profile photo.",
+        "NSPhotoLibraryUsageDescription": "This app requires access to the photo library to upload your profile photo.",
+        "NSPhotoLibraryAddUsageDescription": "This app requires access to the photo library to upload your profile photo.",
+        "NSMicrophoneUsageDescription": "This app requires access to the microphone to send voice messages and voice memos also through the message function.",
+        "UIBackgroundModes": ["audio"]
+      },
+      "supportsTablet": false,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.797309799983-7tm6ig2ifsqajg8u8uiapge7s4cdacrr"
+        }
+      },
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "com.pro.procurementleague",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 27,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "procurementleague"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "notification": {
+      "icon": "./assets/images/icon.png",
+      "color": "#cccccc",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    }
+  }
+}

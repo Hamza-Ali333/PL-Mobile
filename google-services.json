@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "269601199802",
+    "firebase_url": "https://procurement-league-fefd6.firebaseio.com",
+    "project_id": "procurement-league-fefd6",
+    "storage_bucket": "procurement-league-fefd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269601199802:android:eb09e56693c89bdd9e5483",
+        "android_client_info": {
+          "package_name": "com.pro.procurementleague"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269601199802-eu8d2mkjdsrajmb35o7fe06phrloue1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmCcdjRNjwxN_GOrpPitZsUQ4c-cEG_KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269601199802-eu8d2mkjdsrajmb35o7fe06phrloue1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
